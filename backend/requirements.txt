@@ -1,0 +1,6 @@
+flask==3.0.3
+flask-cors==4.0.1
+pymupdf==1.24.5
+groq
+bcrypt==4.2.0
+PyJWT==2.9.0
