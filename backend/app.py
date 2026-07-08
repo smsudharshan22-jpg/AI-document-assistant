@@ -16,7 +16,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 # ---- CONFIG ----
 SECRET_KEY = "change-this-to-a-random-secret-key-12345"
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "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")
 
 client = Groq(api_key=GROQ_API_KEY)
 
